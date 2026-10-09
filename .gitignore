@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs
+.idea/
+.vscode/
+
+# Local data and generated files
+data/*
+!data/.gitkeep
+results/*
+!results/.gitkeep
+outputs/*
+!outputs/.gitkeep
+
+# Local model files
+*.pkl
+*.pickle
+*.joblib
